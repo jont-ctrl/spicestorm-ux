@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className='app-container'>
-      <Header />
+      <Header name='SpiceNice' />
       <div className='content'>
         <h1>Hello</h1>
         <button className='btn btn-primary'>Köp</button>

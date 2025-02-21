@@ -1,11 +1,11 @@
-function Header() {
+function Header({ name }) {
   return (
     <>
       <img className='header-img' src='\src\Images\spices.jpg' alt='' />
       <nav className='navbar navbar-expand-lg bg-body-tertiary'>
         <div className='container-fluid'>
           <a className='navbar-brand' href='#'>
-            SpiceStorm
+            {name}
           </a>
           <a className='navbar-brand' href='#'>
             Kundvagn 🛒
