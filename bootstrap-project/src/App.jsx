@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <h1>hello</h1>
+      <h1>Santa Maria</h1>
       <button className='btn btn-primary'>Köp</button>
     </>
   );

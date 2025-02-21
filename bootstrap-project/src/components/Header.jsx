@@ -7,6 +7,9 @@ function Header() {
           <a className='navbar-brand' href='#'>
             SpiceStorm
           </a>
+          <a className='navbar-brand' href='#'>
+            Kundvagn 🛒
+          </a>
           <button
             className='navbar-toggler'
             type='button'
@@ -38,30 +41,25 @@ function Header() {
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
                 >
-                  Dropdown
+                  Om oss
                 </a>
                 <ul className='dropdown-menu'>
                   <li>
                     <a className='dropdown-item' href='#'>
-                      Action
+                      Santa Maria
                     </a>
                   </li>
                   <li>
                     <a className='dropdown-item' href='#'>
-                      Another action
+                      Chili
                     </a>
                   </li>
                   <li>
                     <a className='dropdown-item' href='#'>
-                      Something else here
+                      Peppar
                     </a>
                   </li>
                 </ul>
-              </li>
-              <li className='nav-item'>
-                <a className='nav-link disabled' aria-disabled='true'>
-                  Disabled
-                </a>
               </li>
             </ul>
             <form className='d-flex' role='search'>
